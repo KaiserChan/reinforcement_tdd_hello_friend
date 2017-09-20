@@ -1,11 +1,13 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './friend.rb'
+require 'pry'
 
 class TestFriend < MiniTest::Test
   # 'setup' gets run before each individual test
   # We can set up variables that we reuse here
   def setup
+    # binding.pry
     @friend = Friend.new
   end
 
