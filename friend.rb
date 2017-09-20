@@ -5,7 +5,7 @@ class Friend
   end
 
   def greet(name = nil)
-      puts "Hello #{name}!"
+    "Hello #{name}!"
   end
 
 
